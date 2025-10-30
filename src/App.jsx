@@ -1,19 +1,10 @@
-import Header from "./components/header/Header"
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./components/Main/Main";
-import Footer from './components/Footer/Footer';
 import HowToBuy from "./components/Pages/HowToBuy/HowToBuy";
 import Sales from './components/Pages/Sales/Sales';
+import Layout from "./layout/Layout";
 
-function Layout() {
-  return (
-    <div>
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
-  )
-}
+
 
 export default function App() {
   const router = createBrowserRouter([

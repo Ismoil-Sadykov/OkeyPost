@@ -14,7 +14,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 
-export default function Header() {
+export default function HeaderJon() {
     const [open, setOpen] = useState(false);
 
     const toggleDrawer = (newOpen) => () => {
@@ -23,12 +23,12 @@ export default function Header() {
 
     const menuItems = [
         { text: 'Как покупать', path: '/HowToBuy' },
-        { text: 'Распродажи', path: '/Sales'},
-        { text: 'Цены'},
-        { text: 'Помощь'},
-        { text: 'Бонусы'},
-        { text: 'Блог'},
-        { text: 'Магазины'},
+        { text: 'Распродажи', path: '/Sales' },
+        { text: 'Цены' },
+        { text: 'Помощь' },
+        { text: 'Бонусы' },
+        { text: 'Блог' },
+        { text: 'Магазины' },
     ];
 
     const DrawerList = (
@@ -56,7 +56,7 @@ export default function Header() {
                     <Button sx={{ color: "#1F2428", fontSize: "13px", fontWeight: "600" }}>Как покупать</Button>
                 </Link>
                 <Link to={"/Sales"}>
-                <Button sx={{ color: "#1F2428", fontSize: "13px", fontWeight: "600" }}>Распродажи</Button>
+                    <Button sx={{ color: "#1F2428", fontSize: "13px", fontWeight: "600" }}>Распродажи</Button>
                 </Link>
                 <Button sx={{ color: "#1F2428", fontSize: "13px", fontWeight: "600" }}>Цены</Button>
                 <Button sx={{ color: "#1F2428", fontSize: "13px", fontWeight: "600" }}>Помощь</Button>
