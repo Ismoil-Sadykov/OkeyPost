@@ -1,0 +1,1 @@
+export const url = 'https://68c95856ceef5a150f647482.mockapi.io/Blogers'
